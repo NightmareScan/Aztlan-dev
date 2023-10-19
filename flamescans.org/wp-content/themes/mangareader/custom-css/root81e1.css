@@ -1,0 +1,51 @@
+:root {
+  --background: #1c1c1c;
+  --accents: #cc142d;
+  --navbar: #020101;
+  --greys: #575757;
+  --ratings: #f7931e;
+  --status: #319f00;
+}
+body {
+  background: var(--background);
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #af1d31 transparent;
+}
+*::-webkit-scrollbar {
+  width: 0.3rem;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #af1d31;
+  border-radius: 10px;
+}
+.hidden {
+  display: none !important;
+}
+.bs .bsx {
+  overflow: visible;
+}
+#content {
+  margin-top: 0;
+  padding-bottom: 300px;
+}
+span.soon {
+  position: absolute;
+  top: 26px;
+  left: -26px;
+  line-height: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 1;
+  padding: 2px 20px;
+  font-size: 9px;
+  background: #de3b3b;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
